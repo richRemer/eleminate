@@ -6,7 +6,7 @@ Using eleminate
 ---------------
 
 ```js
-// must provide the document object use eleminate function
+// must provide document object to use eleminate function
 var el = require("eleminate")(document);
 
 // create empty element
