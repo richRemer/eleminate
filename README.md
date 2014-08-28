@@ -16,7 +16,7 @@ var br = el("br");
 var span = el("span", "Foo!");
 
 // create element with attributes set
-var section = el("section" {"class": "main"});
+var section = el("section", {"class": "main"});
 
 // create element with text and attributes
 var anchor = el("a", {href: "/"}, "Homepage");
