@@ -1,0 +1,26 @@
+{
+  "name": "eleminate",
+  "version": "0.0.1",
+  "description": "DOM create shortcuts",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "~1",
+    "expect.js": "~0.3",
+    "jsdom": "*"
+  },
+  "optionalDependencies": {
+    "jsdom": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/richRemer/eleminate.git"
+  },
+  "author": "Richard Remer (reanjr@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/richRemer/eleminate/issues"
+  }
+}
