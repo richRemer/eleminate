@@ -1,6 +1,6 @@
 {
   "name": "eleminate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "DOM create shortcuts",
   "main": "index.js",
   "scripts": {
