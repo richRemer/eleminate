@@ -7,6 +7,7 @@ Using eleminate
 
 ```js
 // must provide document object to use eleminate function
+// Note: use browserify or include lib/eleminate.js for browser environment
 var el = require("eleminate")(document);
 
 // create empty element
