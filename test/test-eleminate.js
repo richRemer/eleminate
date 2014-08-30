@@ -35,6 +35,7 @@ describe("eleminate", function() {
     });
     
     it("should treat text as delimiter if children set", function() {
+console.error("eleminating...");
         var el = eleminate("nav", {id: "foo"}, [
             eleminate("a", {href: "/"}, "home"),
             eleminate("a", {href: "/faq"}, "faq")
