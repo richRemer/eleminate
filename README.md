@@ -38,8 +38,8 @@ var nav = el("nav", [
 ### Namespaces
 
 If you need to use namespaces, register the namespace prefix when creating the
-eleminate function and pass the appropriate qualified name when calling the
-eleminate function.
+`eleminate` function and pass the appropriate qualified name when calling the
+`eleminate` function.
 
 ```js
 var el = require("eleminate")(document, {
