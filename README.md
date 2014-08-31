@@ -35,8 +35,8 @@ var nav = el("nav", [
 ], " - ");  // hyphens between links
 ```
 
-Namespaces
-==========
+=== Namespaces
+
 If you need to use namespaces, register the namespace prefix when creating the
 eleminate function and pass the appropriate qualified name when calling the
 eleminate function.
