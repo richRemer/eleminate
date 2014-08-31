@@ -49,9 +49,7 @@ describe("eleminate", function() {
     
     it("should recognize common namespaces", function() {
         var el = eleminate("svg:svg");
-        expect(el.nodeName.toLowerCase()).to.be("svg:svg");
-        expect(el.localName).to.be("svg");
-        expect(el.prefix).to.be("svg");
+        expect(el.nodeName.toLowerCase()).to.be("svg");
         expect(el.namespaceURI).to.be("http://www.w3.org/2000/svg");
     });
     
@@ -60,9 +58,7 @@ describe("eleminate", function() {
                 foo: "http://example.com/ns/foo"
             }),
             el = eleminate("foo:bar");
-        expect(el.nodeName.toLowerCase()).to.be("foo:bar");
-        expect(el.localName).to.be("bar");
-        expect(el.prefix).to.be("foo");
+        expect(el.nodeName.toLowerCase()).to.be("bar");
         expect(el.namespaceURI).to.be("http://example.com/ns/foo");
     });
 });
